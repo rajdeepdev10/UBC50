@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "UBC50",
+    "version": "0.1.0",
+    "description": "A productive new tab with a UBC theme",
+    "chrome_url_overrides":
+    {
+        "newtab": "index.html"
+    },
+    "permissions": ["geolocation", "storage"],
+    "author": "Rajdeep Dev",
+    "version_name": "Alpha: 0.1.0",
+    "homepage_url": "http://github.com/rajdeepdev10/UBC50",
+    "icons": { "16": "./photos/ubc-logo-square.png",
+               "48": "./photos/ubc-logo-square.png",
+               "128": "./photos/ubc-logo-square.png"}
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBC50 - UBC Themed Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="bg"></div>
+    <div id="container">
+        <div id="header">
+            <div id="ubc-info">
+                <div id="ubc-city">Vancouver, BC</div>
+                <div id="ubc-time">time</div>
+                <div id="ubc-weather">
+                    <img src="" alt="weather-icon" id="ubc-weather-icon">
+                    <div id="ubc-temperature">temp</div>
+                </div>
+            </div>
+            <div id="ubc-logo">
+                <a href="https://canvas.ubc.ca"><img src="./photos/ubc-logo.png" alt="ubc-logo" id="ubc-logo"></a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="time"></div>
+            <div id="weather">
+                <img src="" alt="" id="weather-icon">
+                <div id="temperature"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="card">
+                <h2>Tasks to be done...</h2>
+                <ul id="tasks">
+
+                </ul>
+                <input type="text" id="newTask" placeholder="Add a new task">
+                <button id="addTask">Add</button>
+            </div>
+            <div id="todo">Todo</div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="time.js"></script>
+    <script src="weather.js"></script>
+    <!-- <script src="greetings.js"></script> -->
+</body>
+</html>
