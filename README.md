@@ -2,7 +2,7 @@
 
 **Version 0.1.0**
 
-![UBC50 Screenshot](http://blogs.ubc.ca/rajdeepdev/files/2020/10/ubc50.png)
+![UBC50 Screenshot](http://blogs.ubc.ca/rajdeepdev/files/2020/10/Screenshot_2020-10-21_21-25-46.png)
 
 UBC50 is a chrome extension which provides a dashboard with a clock, weather, and a todo app.
 The dashboard comes with a University of British Columbia Theme.
@@ -22,10 +22,11 @@ UBC50 uses a couple of opensource projects:
 UBC50 Requires a Chrome Web Browser to run. The steps to install are to download this repository and install it directly in the browser after enabling developer mode.
 
 ## Contributor
-- Rajdeep Dev <dev10@student.ubc.ca>
+- :bangladesh: Rajdeep Dev <dev10@student.ubc.ca>
 
 License
 ----
 MIT
 
+### CS50 Certificate
 ![Certificate](https://certificates.cs50.io/34cfe826-778e-47b2-855b-4975d392f372.png?size=letter)
