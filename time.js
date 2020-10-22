@@ -6,7 +6,7 @@
 function get_time()
 {
     const time = new Date();
-    ubc_time = new Date().toLocaleTimeString("it-IT", {timeZone: "PST"});
+    ubc_time = new Date().toLocaleTimeString("it-IT", {timeZone: "America/Los_Angeles"});
 
     const timeText = time.toLocaleTimeString("it-IT");
     
